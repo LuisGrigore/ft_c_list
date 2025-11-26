@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   gen_link_list_retrieval.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 23:24:06 by lgrigore          #+#    #+#             */
-/*   Updated: 2025/11/13 19:44:05 by dmaestro         ###   ########.fr       */
+/*   Updated: 2025/11/26 19:51:33 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../gen_link_list_internal.h"
-
-// TODO pop_back
 
 void	*gen_list_pop_front(t_gen_list *list)
 {

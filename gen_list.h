@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   gen_list.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/29 17:30:11 by lgrigore          #+#    #+#             */
-/*   Updated: 2025/11/13 19:38:46 by dmaestro         ###   ########.fr       */
+/*   Updated: 2025/11/26 19:56:21 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 # define GEN_LIST_H
 # include <stdbool.h>
 # include <stdlib.h>
+
+//TODO:: Make it double linked.
 
 /* ============================================================
 **  Status Codes

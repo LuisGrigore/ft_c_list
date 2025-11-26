@@ -6,11 +6,13 @@
 /*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 13:56:57 by lgrigore          #+#    #+#             */
-/*   Updated: 2025/11/13 01:05:13 by lgrigore         ###   ########.fr       */
+/*   Updated: 2025/11/26 19:56:02 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../gen_link_list_internal.h"
+
+//TODO:: Implement gen_list_iter_prev (need to make it a double linked list)
 
 void	*gen_list_iter_next(t_gen_list_iter *it)
 {

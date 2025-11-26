@@ -3,24 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   gen_link_list_serialization.c                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 23:45:04 by lgrigore          #+#    #+#             */
-/*   Updated: 2025/11/13 19:57:13 by dmaestro         ###   ########.fr       */
+/*   Updated: 2025/11/26 19:50:57 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../gen_link_list_internal.h"
-
-// static void	free_str_array(char **arr, size_t n)
-// {
-// 	size_t	i;
-
-// 	i = 0;
-// 	while (i < n)
-// 		free(arr[i++]);
-// 	free(arr);
-// }
 
 static size_t	calc_total_len(t_gen_list *list, t_element_to_string f)
 {

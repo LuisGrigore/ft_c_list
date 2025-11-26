@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   gen_link_list_peek.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmaestro <dmaestro@student.42madrid.con    +#+  +:+       +#+        */
+/*   By: lgrigore <lgrigore@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 23:45:56 by lgrigore          #+#    #+#             */
-/*   Updated: 2025/11/13 19:35:15 by dmaestro         ###   ########.fr       */
+/*   Updated: 2025/11/26 19:51:12 by lgrigore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../gen_link_list_internal.h"
-
-// TODO :: implementar todas las funciones de peek
 
 void	*gen_list_peek_top(t_gen_list *list)
 {
